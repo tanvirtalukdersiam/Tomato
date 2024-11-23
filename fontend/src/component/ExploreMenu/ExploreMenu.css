@@ -57,3 +57,9 @@
   border: 4px solid tomato;
   padding: 1px;
 }
+
+@media (max-width: 1050px) {
+  .explore_menu_text {
+    max-width: 100%;
+  }
+}

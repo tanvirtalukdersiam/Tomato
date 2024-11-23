@@ -1,0 +1,99 @@
+.navbar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 150px;
+}
+
+.navbar_menu {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #49557e;
+  font-size: 18px;
+}
+
+.navbar_right {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.navbar_button {
+  padding: 10px 26px;
+  color: #49557e;
+  border: 1px solid tomato;
+  cursor: pointer;
+  border-radius: 50px;
+  background: transparent;
+}
+
+.navbar .active {
+  padding-bottom: 2px;
+  border-bottom: 2 px solid #49557e;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+.navBar_search_icon {
+  position: relative;
+}
+.dot {
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: tomato;
+  border-radius: 5px;
+  top: -8px;
+  right: -6px;
+}
+
+@media (max-width: 1050px) {
+  .navbar .logo {
+    width: 140px;
+  }
+  .navbar_menu {
+    gap: 20px;
+    font-size: 17px;
+  }
+  .navbar_right {
+    gap: 30px;
+  }
+  .navbar_right img {
+    width: 22px;
+  }
+  .navbar_button {
+    padding: 8px 24px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .navbar .logo {
+    width: 120px;
+  }
+  .navbar_menu {
+    gap: 15px;
+    font-size: 16px;
+  }
+  .navbar_right {
+    gap: 20px;
+  }
+  .navbar_right img {
+    width: 20px;
+  }
+  .navbar_button {
+    padding: 7px 20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 750px) {
+  .navbar_menu {
+    display: none;
+  }
+}

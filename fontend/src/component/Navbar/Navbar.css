@@ -73,6 +73,43 @@
   }
 }
 
+.navbar_profile {
+  position: relative;
+}
+
+.nav_profile_dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+
+  border-radius: 5px;
+}
+
+.navbar_profile:hover .nav_profile_dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: aliceblue;
+  padding: 12px 25px;
+  border-radius: 4px;
+  border: 1px solid tomato;
+  outline: 2px solid white;
+  list-style: none;
+}
+.nav_profile_dropdown li {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav_profile_dropdown img {
+  width: 24px;
+}
+.nav_profile_dropdown li:hover {
+  color: tomato;
+}
+
 @media (max-width: 900px) {
   .navbar .logo {
     width: 120px;

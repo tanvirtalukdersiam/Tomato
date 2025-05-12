@@ -26,7 +26,7 @@
 .navbar_button {
   padding: 10px 26px;
   color: #49557e;
-  border: 1px solid tomato;
+  border: 1px solid #72b0b0;
   cursor: pointer;
   border-radius: 50px;
   background: transparent;
@@ -47,7 +47,7 @@
   position: absolute;
   height: 10px;
   width: 10px;
-  background-color: tomato;
+  background-color: #72b0b0;
   border-radius: 5px;
   top: -8px;
   right: -6px;
@@ -93,9 +93,12 @@
   background-color: aliceblue;
   padding: 12px 25px;
   border-radius: 4px;
-  border: 1px solid tomato;
+  border: 1px solid #72b0b0;
   outline: 2px solid white;
   list-style: none;
+}
+.logos {
+  font-size: 30px;
 }
 .nav_profile_dropdown li {
   cursor: pointer;
@@ -107,7 +110,7 @@
   width: 24px;
 }
 .nav_profile_dropdown li:hover {
-  color: tomato;
+  color: #72b0b0;
 }
 
 @media (max-width: 900px) {

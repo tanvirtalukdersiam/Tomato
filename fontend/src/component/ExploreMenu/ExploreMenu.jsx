@@ -4,11 +4,11 @@ import { menu_list } from "../../assets/assets";
 const ExploreMenu = ({ category, setCategory }) => {
   return (
     <div className="explore_menu" id="explore_menu">
-      <h3>Explore our menu</h3>
+      <h3>Check Out Our Dishes</h3>
       <p className="explore_menu_text">
-        Choose from a diverse menu featuring a delectable array of dishes. Our
-        mission is to satisfy your cravings and elevate your dining experience
-        one delicious meal at a time.
+        Explore a diverse menu filled with mouthwatering dishes made from
+        quality ingredients. Our mission is to satisfy your cravings and elevate
+        your dining experience with every flavorful, satisfying bite you take.
       </p>
       <div className="explore_menu_list">
         {menu_list.map((item, index) => (

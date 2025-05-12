@@ -15,7 +15,7 @@ const Navbar = ({ setShowLogin }) => {
   return (
     <div className="navbar">
       <Link to="/">
-        <img className="logo" src={assets.logo} alt="" />
+        <h4 className="logos">CraveFeast</h4>
       </Link>
       <ul className="navbar_menu">
         <Link
@@ -23,28 +23,28 @@ const Navbar = ({ setShowLogin }) => {
           onClick={() => setMenu("home")}
           className={menu === "home" ? "active" : ""}
         >
-          home
+          Home
         </Link>
         <a
           href="#explore_menu"
           onClick={() => setMenu("menu")}
           className={menu === "menu" ? "active" : ""}
         >
-          menu
+          Our Dishes
         </a>
         <a
           href="#Food_Download_app"
           onClick={() => setMenu("mobile-app")}
           className={menu === "mobile-app" ? "active" : ""}
         >
-          mobile-app
+          Application
         </a>
         <a
           href="#footer"
           onClick={() => setMenu("contact-us")}
           className={menu === "contact-us" ? "active" : ""}
         >
-          contact us
+          Contact us
         </a>
       </ul>
       <div className="navbar_right">

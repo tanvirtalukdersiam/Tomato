@@ -1,8 +1,11 @@
 .header {
   height: 34vw;
   margin: 30px auto;
+  width: 100%;
+  border-radius: 6px;
   background: url("/header_img.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
+  filter: grayscale(-5%);
   position: relative;
 }
 .header-content {
